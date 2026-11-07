@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "notes": "## Tote 1.0.0 — 07 Nov 2026\n\n- First release of Tote: a copy queue (copy, move, download, folders-only, dates-only, verify, make and check checksum files) that runs one task after another with verification by many checksums, pause and resume that survive a restart, retries, waiting for a drive or share to come back, conflict answers with \"every time\", several destinations and up to 16 threads (Pro), an editable file list (Pro), scheduling, a speed graph, history, logs and HTML / CSV reports (Pro) — and a clipboard memory with search, pins in your own order, collections that fill themselves, text read out of images, notes, a JSON viewer, a paste sequence, plain-text paste, Shortcuts / AppleScript / Automator actions, private mode, app exclusions, wipe on lock and encrypted backups (Pro); a menu-bar popover on ⌃⇧V, Finder services, accounts, activation codes, Razorpay, the Owner Panel, crash reports, a self-updater, sounds with scenes, light and dark gold themes.\n\n### Install\n\nTote is a Mac app (Apple silicon — M1 and later). One download: `Tote_<version>_aarch64.dmg`.\n\n- **With Pour:** `curl -fsSL https://ipconfig.co.network/pour/install | sh` then `pour install --cask tote`\n- **By hand:** open the DMG and drag Tote into Applications. First launch: `xattr -cr /Applications/Tote.app` (Tote is self-signed, not notarized).\n- Per-app volume and the equaliser need macOS 14.4 or later.\n- Earlier Windows, Linux, ChromeOS, FreeBSD and Intel Mac builds stay on the releases page but are no longer updated.",
+  "pub_date": "2026-11-07T14:02:59Z",
+  "platforms": {
+    "darwin-aarch64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUSUVLMDNkb2V5SDluMTZ1UzBhWU14NjhUUTRDZk9qRG5qbUtqV1RlYUp3SEkzOEkvN285NnVvOWpIUUcyeGJHSGkyWU1JMGxhckFuVXgwekhoc0F3Z2FaRVBFZUw5SGdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDU4ODQ5CWZpbGU6VG90ZS5hcHAudGFyLmd6CmFKaTZFSEZzSEprNjNmdXhXd0o4YVhBeXpqNTFQUGVNQzE4anFHOURzdWdHdjhKcWlTQ2w0a1Vyc0dVL0NId0VuZTZKendLQTdCVXRyQ3hMS1hjY0FBPT0K",
+      "url": "https://github.com/JKS-sys/tote-07-nov-2026-releases/releases/download/v1.0.0/Tote_aarch64.app.tar.gz"
+    }
+  },
+  "downloads": {
+    "mac_arm": "Tote_1.0.0_aarch64.dmg"
+  }
+}
